@@ -1,0 +1,27 @@
+﻿name: Hiroshi AI / ヒロシ
+singer_type: diffsinger
+text_file_encoding: utf-8
+image: icon.png
+portrait: hiroshi.png
+portrait_opacity: 0.6
+portrait_height: 0
+author: Alejandro Abenza Ríos
+web: https://hiroshi234.blogspot.com/
+version: "1.0"
+default_phonemizer: OpenUtau.Core.DiffSinger.DiffSingerPhonemizer
+subbanks:
+- color: '01: natural'
+  prefix: ""
+  suffix: dsmain/embeds/acoustic/natural
+  tone_ranges:
+  - C1-B7
+- color: soft
+  prefix: ""
+  suffix: ""
+  tone_ranges:
+  - C1-B7
+- color: strong
+  prefix: ""
+  suffix: ""
+  tone_ranges:
+  - C1-B7
